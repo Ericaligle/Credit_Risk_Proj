@@ -104,3 +104,8 @@ O projeto foi estruturado para permitir que o ciclo de vida analítico — desde
 **PCA**: Investigação da redução de dimensionalidade, decidindo pela manutenção das variáveis originais em favor da interpretabilidade e transparência exigidas pelo negócio.
 
 **Modelagem**: Regressão Logística com ajuste de pesos (balanced) como modelo campeão.
+
+## 6.Relatório Final e Documentação
+Este projeto é acompanhado por um relatório técnico detalhado, que documenta toda a metodologia, as decisões de modelagem e a interpretação estatística dos resultados. Para uma compreensão completa do trabalho, consulte:
+
+* **[Relatório Final](reports/Final_Report.md):** Contém a análise exploratória, a fundamentação técnica da Regressão Logística, a discussão sobre a Análise de Componentes Principais (PCA) e a auditoria final dos erros do modelo.
