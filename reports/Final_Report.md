@@ -83,7 +83,12 @@ A análise das distribuições revelou anomalias severas e ruídos operacionais 
 
 ### 4.1 Identificação de Inconsistências
 * **Anomalia de Idade (`person_age`):** Identificação de registros contendo idades impossíveis (ex: proponentes com mais de 120 e 140 anos de idade).
+
+![](./figures/person_age_uni_dist.png)
+
 * **Anomalia de Tempo de Emprego (`person_emp_length`):** Casos isolados apresentando tempo de emprego superior a 100 anos.
+
+![](./figures/person_emp_uni_dist.png)
 
 *Tratamento:* Em concordância com as melhores práticas de ciência de dados, estas inconsistências biográficas e de mercado foram convertidas para valores nulos (`NaN`) para que o Pipeline de imputação condicional as tratasse de forma estatisticamente íntegra, eliminando o viés do ruído.
 
@@ -94,7 +99,7 @@ A análise das distribuições revelou anomalias severas e ruídos operacionais 
 
 * **Razão do Empréstimo sobre a Renda (`loan_percent_income`):** Esta métrica demonstrou ser um dos preditores mais potentes do ecossistema. Proponentes cujo valor da parcela compromete mais de 30% a 40% da renda anual líquida apresentam taxas exponenciais de inadimplência, validando o impacto do superendividamento na capacidade de pagamento.
 
-
+![Gráfico_análise_bivariada](./figures/loan_percent_income_bivariada.png)
 
 ---
 
