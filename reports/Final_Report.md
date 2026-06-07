@@ -1,12 +1,12 @@
 # Relatório de Projeto Final: Análise Exploratória, Regressão e Componentes Principais (PCA) para Modelagem de Risco de Crédito
 
-**Autora:** Erika  
+**Autora:** Érica  
 **Data:** Junho de 2026  
 **Contexto Acadêmico:** Projeto de Avaliação de Data Science  
 
 ---
 
-## Resumo Executivo
+## Resumo
 Este relatório apresenta o desenvolvimento completo de um pipeline preditivo de ponta a ponta voltado para a classificação de risco de crédito, determinando a probabilidade de incumprimento (*default*) de clientes. Com base nos dados fornecidos, projetou-se uma arquitetura analítica disciplinada pautada na reprodutibilidade. O documento detalha as etapas de divisão de dados, análise rigorosa de dados faltantes, análise exploratória univariada e bivariada, mitigação de multicolinearidade através de análises estatísticas, engenharia de atributos automatizada via pipelines do *scikit-learn*, avaliação do impacto prático da Análise de Componentes Principais (PCA) sob Regressão Logística e, por fim, uma auditoria de erros cometidos pelo modelo preditivo final.
 
 ---
